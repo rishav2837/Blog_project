@@ -27,8 +27,16 @@
           <div id="register-div">
             <h1>Register</h1>
             <form id="register-form">
-              <input type="text" id="register-username" placeholder="Username" />
-              <input type="password" id="register-password" placeholder="Password" />
+              <input
+                type="text"
+                id="register-username"
+                placeholder="Username"
+              />
+              <input
+                type="password"
+                id="register-password"
+                placeholder="Password"
+              />
               <select id="register-role">
                 <option value="reader">Reader</option>
                 <option value="admin">Admin</option>
@@ -45,14 +53,17 @@
             <h1>Login</h1>
             <form id="login-form">
               <input type="text" id="login-username" placeholder="Username" />
-              <input type="password" id="login-password" placeholder="Password" />
+              <input
+                type="password"
+                id="login-password"
+                placeholder="Password"
+              />
               <button id="login-button" type="submit">Login</button>
             </form>
           </div>
         </div>
       </div>
     </nav>
-
     <main>
       <div id="posts-list"></div>
 
@@ -65,20 +76,20 @@
           <button type="submit">Create post</button>
         </form>
       </div>
-
       <div id="post-detail-container"></div>
     </main>
-
     <footer>
       <h3>Nordic Rose</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum
         dolorum hic totam et perferendis? Nisi ipsum omnis dolor harum.
       </p>
-      <span>
-        <p>&copy;</p>
-        <script>document.write(new Date().getFullYear());</script>
-      </span>
+      <span
+        ><p>&copy;</p>
+        <script>
+          document.write(new Date().getFullYear());
+        </script></span
+      >
     </footer>
   </body>
 </html>
